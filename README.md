@@ -39,3 +39,37 @@ ansible-playbook -i inventory.ini -l bastion configure_servers.yml
 - Do adresáře config vykopiruj konfigurační soubor agenta /etc/zabbix/zabbix_agent2.conf který sestavil Ansible
 
 ...
+# Moje práce
+Vzhledem k tomu že applience jsem měl plně funkční tak jsem ji neřešil
+<br/><br/>
+
+- vytvořil jsem  autoregistrační pravidlo
+    host metadata aby bylo ANITA
+    přidá to do hostů a dá to šablonu linux by zabbix agent
+
+![Zabbix-autoregistrace](./images/zabbix1.png)
+
+<br/><br/>
+
+- Poté jsem upravil ansible scripty, aby odpovídaly zadání 
+
+<br/><br/>
+
+- ověřil jsem si že se vidí 
+
+![Bastion-ping](./images/ping.png)
+
+
+<br/><br/>
+
+-spustil jsem ansible_provision, který stáhnul Zabbix agenta verze 2 a propijil ho na server
+-ověřil jsem si že agent běží pomocí systemctl
+
+<br/><br/>
+
+- Nakonec zkontrolujeme zda se host přidal do zabbixu a můžeme ho monitorovat
+
+![Zabbix-Hosti](./images/zabbix3.png)
+![Zabbix-Bastion](./images/zabbixč.png)
+
+[konfigurační soubor](.zabbix_agent2.conf)
