@@ -70,6 +70,6 @@ Vzhledem k tomu že applience jsem měl plně funkční tak jsem ji neřešil
 - Nakonec zkontrolujeme zda se host přidal do zabbixu a můžeme ho monitorovat
 
 ![Zabbix-Hosti](./images/zabbix3.png)
-![Zabbix-Bastion](./images/zabbixč.png)
+![Zabbix-Bastion](./images/zabbix4.png)
 
-[konfigurační soubor](.zabbix_agent2.conf)
+[konfigurační soubor](./configurak/zabbix_agent2.conf)
