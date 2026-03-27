@@ -51,7 +51,7 @@ Vzhledem k tomu že applience jsem měl plně funkční tak jsem ji neřešil
 
 <br/><br/>
 
-- Poté jsem upravil ansible scripty a vagrantfile , aby to odpovídalo zadání 
+- Poté jsem upravil ansible scripty a vagrantfile , aby to odpovídalo zadání (defakto jen upravení ip adres a přidání řádku s hostmeta data do [soubor](.install-zabbix-agent2.yml) ) <br/><br/>
 -spustil jsem to pomocí vagrant up
 <br/><br/>
 
@@ -63,7 +63,7 @@ Vzhledem k tomu že applience jsem měl plně funkční tak jsem ji neřešil
 <br/><br/>
 
 -spustil jsem ansible_provision, který stáhnul Zabbix agenta verze 2 a propijil ho na server
--ověřil jsem si že agent běží pomocí systemctl
+<br/><br/>-ověřil jsem si že agent běží pomocí systemctl
 
 <br/><br/>
 
