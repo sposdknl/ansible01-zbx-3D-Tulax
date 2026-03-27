@@ -51,8 +51,8 @@ Vzhledem k tomu že applience jsem měl plně funkční tak jsem ji neřešil
 
 <br/><br/>
 
-- Poté jsem upravil ansible scripty, aby odpovídaly zadání 
-
+- Poté jsem upravil ansible scripty a vagrantfile , aby to odpovídalo zadání 
+-spustil jsem to pomocí vagrant up
 <br/><br/>
 
 - ověřil jsem si že se vidí 
